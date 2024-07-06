@@ -88,6 +88,7 @@ def export():
             output_names=['prompt_embeds', 'text_proj'],
         )
 
+    # export unet
     class UNET(nn.Module):
         def __init__(self):
             super().__init__()
@@ -136,6 +137,7 @@ def export():
             output_names=['noise_pred'],
         )
 
+    # export vae
     class VAE(nn.Module):
         def __init__(self):
             super().__init__()
