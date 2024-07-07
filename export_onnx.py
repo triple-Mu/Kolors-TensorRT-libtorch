@@ -76,6 +76,7 @@ def export():
 
     input_ids = torch.randint(0, 32000, (2, 256), dtype=torch.int32, device=device)
     attention_mask = torch.ones((2, 256), dtype=torch.int32, device=device)
+    attention_mask[:, 0:100] = 0
     position_ids = torch.arange(0, 256, dtype=torch.int32, device=device).unsqueeze(0)
 
     with onnx_export():
