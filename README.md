@@ -4,7 +4,7 @@
 
 ## 准备
 
-- 安装`TensorRT`, `TensorRT10`的api相较与`TensorRT8`以下版本变化较大, 目前本仓库做了`TensorRT10`的适配, 建议用`TensorRT10`以上的版本。
+- 安装`TensorRT`, `TensorRT10`的api相较于`TensorRT8`以下版本变化较大, 目前本仓库做了`TensorRT10`的适配, 建议用`TensorRT10`以上的版本。
 - 从[huggingface](`https://huggingface.co/Kwai-Kolors/Kolors/tree/main`)下载模型。
 - 安装`pytorch`, `onnx`等依赖。
 
